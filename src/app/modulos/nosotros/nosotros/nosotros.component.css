@@ -1,0 +1,9 @@
+section{
+    color: white;
+    background-color:rgb(224, 68, 68)
+}
+
+hr {
+    border-width: 3px;
+    max-width: 50px;
+}
