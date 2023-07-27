@@ -19,8 +19,12 @@ a{
   }
 
 .scrolled a{    
-    color: black
+    color: black;
     /* Otros estilos que desees */
   }
 
+  .scrolled a:hover{    
+    color: red;
+    /* Otros estilos que desees */
+  }
 
