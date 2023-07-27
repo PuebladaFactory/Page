@@ -11,11 +11,12 @@ import { ServiciosModule } from './modulos/servicios/servicios.module';
 import { PortfolioModule } from './modulos/portfolio/portfolio.module';
 import { AsideModule } from './modulos/aside/aside.module';
 import { ContactoModule } from './modulos/contacto/contacto.module';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,    
+    HomeComponent,        
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import { ContactoModule } from './modulos/contacto/contacto.module';
     ServiciosModule,
     PortfolioModule,
     AsideModule,
-    ContactoModule
+    ContactoModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

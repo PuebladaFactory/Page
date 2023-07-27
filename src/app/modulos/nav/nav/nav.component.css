@@ -5,8 +5,22 @@ img{
 nav{
     height: 70px;
     z-index: 1;
+    background-color: transparent;   
 }
 
-.navbar-collapse{
-    
-}
+a{
+    color:white
+} 
+
+.scrolled{
+    background-color: white;
+    height: 70px;
+    /* Otros estilos que desees */
+  }
+
+.scrolled a{    
+    color: black
+    /* Otros estilos que desees */
+  }
+
+

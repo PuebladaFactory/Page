@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NavRoutingModule } from './nav-routing.module';
 import { NavComponent } from './nav/nav.component';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NavComponent } from './nav/nav.component';
   ],
   imports: [
     CommonModule,
-    NavRoutingModule
+    NavRoutingModule,
+    ScrollingModule
   ],
   exports: [
     NavComponent
