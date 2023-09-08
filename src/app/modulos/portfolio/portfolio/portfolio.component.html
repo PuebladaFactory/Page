@@ -1,8 +1,28 @@
-<section class="no-padding" id="portfolio">
+<section class="no-padding" id="portfolio" >
     <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="col-lg-4 col-sm-6 card flex-fill">
-                <a href="https://pf-onelink.web.app/" target="_blank" class="portfolio-box">
+        <div class="row no-gutter d-flex justify-content-evenly">
+            <div class="col-lg-4 col-sm-6 card flex-fill" >
+                <a type="button" class="mi-elemento"  (mouseenter)="onMouseEnter($event)" (mouseleave)="onMouseLeave($event)" >
+                    <img src="https://i.ibb.co/R0fgcV7/parkapp-h.jpg"  class="img-fluid" alt=""  >
+                </a>
+                   
+               
+                
+                <!--  <a href="https://pf-onelink.web.app/" target="_blank" class="portfolio-box" >
+                    <img src="https://i.ibb.co/Tq1PVD3/one-link-h-transformed2.jpg" class="img-responsive" alt="" width="83%" height="83%">
+                    <p style="text-align: center;" class="mt-2"> ONELINK</p>
+                    <p style="text-align: center;"> App donde unificas y publicas todas tus redes sociales</p>
+                   
+                </a> -->
+                <div class="descripcion text-center" *ngIf="mostrar">
+                    <h3 class="mx-5 mt-5 text-center">
+                        Es una pequeña herramienta que te ayuda a fundar un micro sitio web donde puedes agregar todos los enlaces que quieras compartir en un solo lugar. y mas zaraza como esa...
+                    </h3>
+                    <button class="btn btn-warning mt-5" type="button">Probar demo </button>
+                </div>            
+            </div>
+            <!-- <div class="col-lg-4 col-sm-6 card flex-fill">
+                <a href="https://pf-onelink.web.app/" target="_blank" class="portfolio-box" (mouseenter)="mostrarParrafo = true" (mouseleave)="mostrarParrafo = false">
                     <img src="https://i.ibb.co/Tq1PVD3/one-link-h-transformed2.jpg" class="img-responsive" alt="" width="83%" height="83%">
                     <p style="text-align: center;" class="mt-2"> ONELINK</p>
                     <p style="text-align: center;"> App donde unificas y publicas todas tus redes sociales</p>
@@ -17,6 +37,12 @@
                         </div>
                     </div>
                 </a>
+                <div class="descripcion text-center" [hidden]="!mostrarParrafo">
+                    <h3 class="mx-5 mt-5 text-center">
+                        Es una pequeña herramienta que te ayuda a fundar un micro sitio web donde puedes agregar todos los enlaces que quieras compartir en un solo lugar. y mas zaraza como esa...
+                    </h3>
+                    <button class="btn btn-warning mt-5" type="button">Probar demo </button>
+                </div>                
             </div>
             <div class="col-lg-4 col-sm-6 card flex-fill">
                 <a href="https://dummy-park.web.app/login" target="_blank" class="portfolio-box">
@@ -51,7 +77,7 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
             <!-- <div class="col-lg-4 col-sm-6">
                 <a href="#" class="portfolio-box">
                     <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
