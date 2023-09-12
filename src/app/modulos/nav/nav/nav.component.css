@@ -23,11 +23,13 @@ a{
 
 .scrolled a{    
     color: black;
-    /* Otros estilos que desees */
+        /* Otros estilos que desees */
   }
 
   .scrolled a:hover{    
     color: red;
     /* Otros estilos que desees */
   }
-
+.nav-item{
+  background-color: rgba(249, 252, 251, 0.3)
+}
