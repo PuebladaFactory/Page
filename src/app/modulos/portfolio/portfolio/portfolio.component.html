@@ -1,87 +1,46 @@
-<section class="no-padding" id="portfolio">
+<section class="no-padding" id="portfolio" >
     <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="col-lg-4 col-sm-6 card flex-fill">
-                <a href="https://pf-onelink.web.app/" target="_blank" class="portfolio-box">
-                    <img src="https://i.ibb.co/hyktGw1/one5h.jpg" class="img-responsive" alt="" width="83%" height="83%">
-                    <p style="text-align: center;" class="mt-2"> ONELINK</p>
-                    <p style="text-align: center;"> App donde unificas y publicas todas tus redes sociales</p>
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                One Link
-                            </div>
-                        </div>
-                    </div>
+        <div class="row no-gutter d-flex justify-content-evenly">
+            <div class="col-lg-4 col-sm-6 card flex-fill mi-elemento1" (mouseenter)="onMouseEnter($event)"  (mouseleave)="onMouseEnter($event)"  >
+                <a type="button" >
+                    <img src="https://i.ibb.co/hyktGw1/one5h.jpg" class=" img-fluid" alt="OneLink" >
                 </a>
+                <div class="descripcion text-center rounded d-flex row" *ngIf="mostrar1">
+                    <h4 class="mx-auto px-5 pt-5 text-center">
+                        Una pequeña herramienta que te ayuda a fundar un micro sitio web donde puedes agregar todos los enlaces que quieras compartir en un solo lugar.
+                    </h4>
+                    <a href="https://dummy-park.web.app/login" target="_blank" class="portfolio-box align-self-end mb-5">
+                        <button class="btn btn-warning mt-3" type="button">Probar demo </button>
+                    </a>
+                </div>            
             </div>
-            <div class="col-lg-4 col-sm-6 card flex-fill">
-                <a href="https://dummy-park.web.app/login" target="_blank" class="portfolio-box">
-                    <img src="https://i.ibb.co/R0fgcV7/parkapp-h.jpg" class="img-responsive" alt="" width="85%" height="85%">
-                    <p style="text-align: center;"> PARKAPP</p>
-                    <p style="text-align: center;"> App de control de playas de estaciomientos en nube </p>
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Park Up
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-sm-6 card flex-fill mi-elemento2" (mouseenter)="onMouseEnter($event)"  (mouseleave)="onMouseEnter($event)"  >
+                <a type="button" >
+                    <img src="https://i.ibb.co/R0fgcV7/parkapp-h.jpg" class=" img-fluid" alt="ParkApp" >
                 </a>
+                <div class="descripcion text-center rounded d-flex row" *ngIf="mostrar2">
+                    <h4 class="mx-auto px-5 pt-5 text-center">
+                        Un sistema web para gestionar de manera eficiente los procesos de ingreso y salida de vehículos, datos de las cocheras, clientes, tarifas, personal y mas.
+                    </h4>
+                    <a href="https://dummy-park.web.app/login" target="_blank" class="portfolio-box align-self-end mb-5">
+                        <button class="btn btn-warning mt-3" type="button">Probar demo </button>
+                    </a>
+                </div>            
             </div>
-            <div class="col-lg-4 col-sm-6 card flex-fill">
-                <a href="#" class="portfolio-box" target="_blank">
-                    <img src="https://i.ibb.co/xGk7NHP/ticketrech4.jpg" class="img-responsive" alt="" width="85%" height="85%">
-                    <p style="text-align: center;"> TICKET-REC</p>
-                    <p style="text-align: center;"> App de reconocimiento de texto en tickets emitidos para presentar en AFIP</p>
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                LogApp
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-sm-6 card flex-fill mi-elemento3" (mouseenter)="onMouseEnter($event)"  (mouseleave)="onMouseEnter($event)"  >
+                <a type="button" >
+                    <img src="https://i.ibb.co/xGk7NHP/ticketrech4.jpg" class=" img-fluid" alt="TicketRec" >
                 </a>
+                <div class="descripcion text-center rounded d-flex row" *ngIf="mostrar3">
+                    <h4 class="mx-auto px-5 pt-5 text-center">
+                        Un herramienta web destinada a la digitalización de tickets enfocada especificamente para la utilización de contadores, facilitando una rapida carga y gestion de datos.
+                    </h4>
+                    <a href="#" target="_blank" class="portfolio-box align-self-end mb-5">
+                        <button class="btn btn-warning mt-3" type="button">Probar demo </button>
+                    </a>
+                </div>            
             </div>
-            <!-- <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div> -->
+
         </div>
     </div>
 </section>
